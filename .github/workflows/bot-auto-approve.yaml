@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.actor == 'hc-github-team-consul-core'
     steps:
-      - uses: hmarr/auto-approve-action@v3
+      - uses: hmarr/auto-approve-action@v4
         with:
           review-message: "Auto approved Consul Bot automated PR"
           github-token: ${{ secrets.MERGE_APPROVE_TOKEN }}
