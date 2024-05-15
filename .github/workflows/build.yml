@@ -316,7 +316,7 @@ jobs:
           echo "minor_dev_tag=$(echo ${{ env.version }}| sed -E 's/([0-9]+\.[0-9]+)\.[0-9]+(-[0-9a-zA-Z\+\.]+)?$/\1\2/')" >> $GITHUB_ENV
 
       - name: Docker Build (Action)
-        uses: hashicorp/actions-docker-build@v1
+        uses: hashicorp/actions-docker-build@v2
         with:
           version: ${{env.version}}
           target: default
@@ -343,7 +343,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
-      - uses: hashicorp/actions-docker-build@v1
+      - uses: hashicorp/actions-docker-build@v2
         with:
           version: ${{env.version}}
           target: ubi
@@ -373,7 +373,7 @@ jobs:
           echo "minor_dev_tag=$(echo ${{ env.version }}| sed -E 's/([0-9]+\.[0-9]+)\.[0-9]+(-[0-9a-zA-Z\+\.]+)?$/\1\2/')" 
           echo "minor_dev_tag=$(echo ${{ env.version }}| sed -E 's/([0-9]+\.[0-9]+)\.[0-9]+(-[0-9a-zA-Z\+\.]+)?$/\1\2/')" >> $GITHUB_ENV
 
-      - uses: hashicorp/actions-docker-build@v1
+      - uses: hashicorp/actions-docker-build@v2
         with:
           version: ${{env.version}}
           target: ubi
