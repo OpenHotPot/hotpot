@@ -35,7 +35,7 @@ jobs:
     steps:
     - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # pin@v3.3.0
 
-    - uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # pin@v3.6.0
+    - uses: actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b # pin@v4.0.3
       with:
         node-version: '16'
 
@@ -55,7 +55,7 @@ jobs:
     steps:
     - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # pin@v3.3.0
 
-    - uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # pin@v3.6.0
+    - uses: actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b # pin@v4.0.3
       with:
         node-version: '16'
 
@@ -84,7 +84,7 @@ jobs:
     steps:
     - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # pin@v3.3.0
 
-    - uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # pin@v3.6.0
+    - uses: actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b # pin@v4.0.3
       with:
         node-version: '16'
 
