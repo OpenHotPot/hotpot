@@ -79,7 +79,7 @@ require (
 	github.com/imdario/mergo v0.3.15
 	github.com/kr/text v0.2.0
 	github.com/miekg/dns v1.1.50
-	github.com/mitchellh/cli v1.1.4
+	github.com/mitchellh/cli v1.1.5
 	github.com/mitchellh/copystructure v1.2.0
 	github.com/mitchellh/go-testing-interface v1.14.0
 	github.com/mitchellh/hashstructure v0.0.0-20170609045927-2bca23e0e452
