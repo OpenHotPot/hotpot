@@ -43,7 +43,7 @@ require (
 	github.com/hashicorp/consul/proto-public v0.4.1
 	github.com/hashicorp/consul/sdk v0.15.0
 	github.com/hashicorp/consul/troubleshoot v0.3.1
-	github.com/hashicorp/go-bexpr v0.1.2
+	github.com/hashicorp/go-bexpr v0.1.14
 	github.com/hashicorp/go-checkpoint v0.5.0
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-connlimit v0.3.0
