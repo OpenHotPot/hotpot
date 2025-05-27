@@ -1,6 +1,6 @@
 module github.com/hashicorp/consul
 
-go 1.20
+go 1.21
 
 replace (
 	github.com/hashicorp/consul/api => ./api
@@ -27,7 +27,7 @@ require (
 	github.com/docker/go-connections v0.4.0
 	github.com/envoyproxy/go-control-plane v0.11.1
 	github.com/envoyproxy/go-control-plane/xdsmatcher v0.0.0-20230524161521-aaaacbfbe53e
-	github.com/fatih/color v1.14.1
+	github.com/fatih/color v1.15.0
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/go-openapi/runtime v0.26.0
 	github.com/go-openapi/strfmt v0.21.7
@@ -88,7 +88,7 @@ require (
 	github.com/mitchellh/pointerstructure v1.2.1
 	github.com/mitchellh/reflectwalk v1.0.2
 	github.com/oklog/ulid/v2 v2.1.0
-	github.com/olekukonko/tablewriter v0.0.4
+	github.com/olekukonko/tablewriter v1.0.7
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.14.0
@@ -210,8 +210,8 @@ require (
 	github.com/lufia/plan9stats v0.0.0-20220913051719-115f729f3c8c // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.17 // indirect
-	github.com/mattn/go-runewidth v0.0.13 // indirect
+	github.com/mattn/go-isatty v0.0.19 // indirect
+	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
@@ -223,6 +223,8 @@ require (
 	github.com/nicolai86/scaleway-sdk v1.10.2-0.20180628010248-798f60e20bb2 // indirect
 	github.com/oklog/run v1.0.0 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
+	github.com/olekukonko/errors v0.0.0-20250405072817-4e6d85265da6 // indirect
+	github.com/olekukonko/ll v0.0.8 // indirect
 	github.com/opentracing/opentracing-go v1.2.1-0.20220228012449-10b1cf09e00b // indirect
 	github.com/packethost/packngo v0.1.1-0.20180711074735-b9cb5096f54c // indirect
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
