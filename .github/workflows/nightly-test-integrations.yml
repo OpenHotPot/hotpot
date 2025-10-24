@@ -116,7 +116,7 @@ jobs:
           go-version-file: 'go.mod'
 
       - name: fetch binary
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+        uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
         with:
           name: '${{ env.CONSUL_BINARY_UPLOAD_NAME }}'
           path: ./bin
@@ -213,7 +213,7 @@ jobs:
 
       # Get go binary from workspace
       - name: fetch binary
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+        uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
         with:
           name: '${{ env.CONSUL_BINARY_UPLOAD_NAME }}'
           path: .
