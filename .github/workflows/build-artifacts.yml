@@ -25,7 +25,7 @@ jobs:
       compute-large: ${{ steps.setup-outputs.outputs.compute-large }}
       compute-xl: ${{ steps.setup-outputs.outputs.compute-xl }}
     steps:
-    - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # pin@v3.3.0
+    - uses: actions/checkout@c2d88d3ecc89a9ef08eebf45d9637801dcee7eb5 # pin@v3.3.0
     - id: setup-outputs
       name: Setup outputs
       run: ./.github/scripts/get_runner_classes.sh
@@ -56,7 +56,7 @@ jobs:
             kv/data/github/${{ github.repository }}/dockerhub username | DOCKERHUB_USERNAME;
             kv/data/github/${{ github.repository }}/dockerhub token | DOCKERHUB_TOKEN;
 
-    - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # pin@v3.3.0
+    - uses: actions/checkout@c2d88d3ecc89a9ef08eebf45d9637801dcee7eb5 # pin@v3.3.0
 
     # NOTE: ENT specific step as we need to set elevated GitHub permissions.
     - name: Setup Git
