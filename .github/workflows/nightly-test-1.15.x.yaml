@@ -104,7 +104,7 @@ jobs:
         run: make deps
 
       - name: Download CE Frontend
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v8
         with:
           name: frontend-ce-${{ env.BRANCH_NAME }}
           path: ./ui/packages/consul-ui/dist
@@ -176,7 +176,7 @@ jobs:
         run: make deps
 
       - name: Download ENT Frontend
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v8
         with:
           name: frontend-ent-${{ env.BRANCH_NAME }}
           path: ./ui/packages/consul-ui/dist
@@ -207,7 +207,7 @@ jobs:
         run: make deps
 
       - name: Download ENT Frontend
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v8
         with:
           name: frontend-ent-${{ env.BRANCH_NAME }}
           path: ./ui/packages/consul-ui/dist

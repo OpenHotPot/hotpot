@@ -412,7 +412,7 @@ jobs:
 
       - name: Download ${{ matrix.arch  }} zip
         if: ${{ endsWith(github.repository, '-enterprise') || matrix.arch != 's390x' }}
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+        uses: actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3 # v8.0.0
         with:
           name: ${{ env.zip_name }}
 
@@ -443,7 +443,7 @@ jobs:
       - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
 
       - name: Download amd64 darwin zip
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+        uses: actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3 # v8.0.0
         with:
           name: ${{ env.zip_name }}
 
@@ -482,7 +482,7 @@ jobs:
           echo "pkg_name=consul_${{ env.pkg_version }}-1_${{ matrix.arch }}.deb" >> $GITHUB_ENV
 
       - name: Download workflow artifacts
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+        uses: actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3 # v8.0.0
         with:
           name: ${{ env.pkg_name }}
 
@@ -523,7 +523,7 @@ jobs:
           echo "pkg_name=consul-${{ env.pkg_version }}-1.${{ matrix.arch }}.rpm" >> $GITHUB_ENV
 
       - name: Download workflow artifacts
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+        uses: actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3 # v8.0.0
         with:
           name: ${{ env.pkg_name }}
 
