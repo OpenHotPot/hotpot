@@ -70,7 +70,7 @@ jobs:
         run: make build-ci
 
       - name: Upload CE Frontend
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: frontend-ce-${{ env.BRANCH_NAME }}
           path: ./ui/packages/consul-ui/dist
@@ -142,7 +142,7 @@ jobs:
         run: make build-ci
 
       - name: Upload ENT Frontend
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: frontend-ent-${{ env.BRANCH_NAME }}
           path: ./ui/packages/consul-ui/dist
