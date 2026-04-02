@@ -1,6 +1,6 @@
 module github.com/hashicorp/consul
 
-go 1.20
+go 1.23
 
 replace (
 	github.com/hashicorp/consul/api => ./api
@@ -43,7 +43,7 @@ require (
 	github.com/hashicorp/consul/proto-public v0.4.1
 	github.com/hashicorp/consul/sdk v0.15.0
 	github.com/hashicorp/consul/troubleshoot v0.3.1
-	github.com/hashicorp/go-bexpr v0.1.2
+	github.com/hashicorp/go-bexpr v0.1.16
 	github.com/hashicorp/go-checkpoint v0.5.0
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-connlimit v0.3.0
@@ -95,7 +95,7 @@ require (
 	github.com/rboyer/safeio v0.2.3
 	github.com/ryanuber/columnize v2.1.2+incompatible
 	github.com/shirou/gopsutil/v3 v3.22.9
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.11.1
 	go.etcd.io/bbolt v1.3.7
 	go.opentelemetry.io/otel v1.16.0
 	go.opentelemetry.io/otel/metric v1.16.0
@@ -244,7 +244,7 @@ require (
 	github.com/softlayer/softlayer-go v0.0.0-20180806151055-260589d94c7d // indirect
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/stretchr/objx v0.5.0 // indirect
+	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/tencentcloud/tencentcloud-sdk-go v1.0.162 // indirect
 	github.com/tklauser/go-sysconf v0.3.10 // indirect
 	github.com/tklauser/numcpus v0.5.0 // indirect
